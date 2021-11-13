@@ -1,0 +1,57 @@
+.menu-bar {
+    display: flex;
+    background-color: var(--main-blue);
+    
+    
+}
+
+/*main menu navigation bar ratio adjustment*/
+.menu-bar__column{
+    /* flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+    flex: 1 1 0;
+
+    align-items: center;
+
+    color :white;
+    font-weight: 550;
+}
+.menu-bar__column:first-child{
+    margin : 0px 40px;
+}
+
+.menu-bar__column:nth-child(2){
+    flex: 7 1 0;
+    margin-left: 20px;
+    padding-top : 25px;
+}
+.menu-bar__column:last-child{
+    flex: 2 1 0;
+    padding-top : 17px;
+}
+
+
+
+.menu-bar__logo{
+    width: 130px;
+    height: 70px;
+}
+
+.menu-bar__list{
+    display: flex;   
+    justify-content: flex-start;
+    
+}
+
+.menu-bar__btn{
+    margin : 0px 25px;
+}
+
+.menu-bar__profile{
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar__profile i{
+    margin : 0px 15px;
+}
+

@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "variable.css";
+
+
+/*components*/
+@import "components/menu-bar.css";
+
+/*screens*/
+
+
+
+
+
+
+
+
+
+body {
+
+    
+    height: 105vh;
+}
