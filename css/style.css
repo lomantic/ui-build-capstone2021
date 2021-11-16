@@ -4,10 +4,11 @@
 
 /*components*/
 @import "components/menu-bar.css";
+@import "components/sidemenu.css";
 
 /*screens*/
-
-
+@import "screens/user-admin-menu.css";
+@import "screens/login.css";
 
 
 
@@ -17,6 +18,6 @@
 
 body {
 
-    
+    background-color:var(--main-background-color);
     height: 105vh;
 }

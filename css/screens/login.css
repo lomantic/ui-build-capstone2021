@@ -1,0 +1,36 @@
+.bg-img{
+    width: 100%;
+    height: 100%;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 500px;
+    height: 620px;
+    background-color: var(--main-blue);
+    position: absolute;
+    top : 10%;
+    right : 35%;
+}
+
+.login__logo{
+    margin:10px;
+}
+
+.login-box__login-form{
+    width: 75%;
+}
+
+.login-box__ID-PW{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box__ID-PW input{
+    height : 50px;
+    padding : 0px 15px;
+    margin-bottom : 50px;
+}

@@ -21,6 +21,7 @@
 
 .menu-bar__column:nth-child(2){
     flex: 7 1 0;
+    
     margin-left: 20px;
     padding-top : 25px;
 }
