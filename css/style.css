@@ -5,10 +5,12 @@
 /*components*/
 @import "components/menu-bar.css";
 @import "components/sidemenu.css";
+@import "components/screen-content.css";
 
 /*screens*/
 @import "screens/user-admin-menu.css";
 @import "screens/login.css";
+@import "screens/search-item.css";
 
 
 

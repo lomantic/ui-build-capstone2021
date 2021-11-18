@@ -16,12 +16,6 @@
 }
 
 
-.screen-page__content{
-    
-    flex: 7 1 0;
-    
-}
-
 
 .screen-page__sidemenu--attr{
     display: flex;
@@ -41,7 +35,7 @@
 
 
 .screen-page__sidemenu--blue{
-    background-color:rgba(78, 96, 132,1);
+    background-color:var(--grey-blue);
     color :white;
 }
 .screen-page__sidemenu--blue i{
